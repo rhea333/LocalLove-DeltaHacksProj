@@ -1,0 +1,127 @@
+body {
+    background-color: #E1EBED;
+    /* padding-bottom: 1500px; */
+    width: 100vh;
+
+}
+
+#nav {
+    position: absolute;
+    width: 98vw;
+    height: 80px;
+
+    background: #F2F2F2;
+}
+
+#list {
+    position: absolute;
+    width: 1000px;
+    height: 530px;
+    left: 130px;
+    top: 870px;
+
+
+
+    background: #ADD4DB
+}
+
+#space {
+    position: absolute;
+    width: 1000px;
+    height: 530px;
+    left: 130px;
+    top: 232px;
+    border-style: solid;
+    border-color: black;
+    background: #ADD4DB;
+}
+
+#map {
+    position: absolute;
+    top: 350px;
+    left: 320px;
+    border-style: solid;
+
+}
+
+input {
+    width: 500px;
+    height: 40px;
+    text-align: center;
+
+}
+
+button {
+    width: 80px;
+    height: 45px;
+    position: relative;
+    left: 80px;
+}
+
+button:hover{
+    background-color: #E2B706;
+}
+
+.Location {
+    position: absolute;
+    top: 160px;
+    left: 650px;
+    border-radius: 20px;
+    margin: 5px;
+
+}
+
+.Food {
+    position: absolute;
+    top: 160px;
+    left: 100px;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+#EnterLoc {
+    position: absolute;
+    top: 120px;
+    left: 660px;
+
+
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 55px;
+    letter-spacing: -0.05em;
+    text-transform: uppercase;
+    color: #324B4F;
+}
+
+#EnterFood {
+    position: absolute;
+    top: 120px;
+    left: 110px;
+
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 55px;
+    letter-spacing: -0.05em;
+    text-transform: uppercase;
+    color: #324B4F;
+
+}
+
+#output {
+    position: absolute;
+    top: 810px;
+    left: 130px;
+
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 55px;
+    letter-spacing: -0.05em;
+    text-transform: uppercase;
+    color: #324B4F;
+}
